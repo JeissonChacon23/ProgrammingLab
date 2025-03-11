@@ -1,0 +1,19 @@
+img {
+    width: 200px;  /* Ancho fijo */
+    height: 200px; /* Alto fijo */
+  }
+  
+  
+  .video-container {
+    width: 560px; /* Tamaño original del video */
+    height: 315px;
+    transform: scale(0.9); /* Reduce el tamaño al 70% */
+    transform-origin: top left;
+  }
+  
+  img {
+    max-width: 100%;  /* Evita que sea más grande que su tamaño original */
+    height: auto;     /* Mantiene la proporción */
+    display: block;   /* Elimina el pequeño espacio extra debajo de la imagen */
+  }
+  
